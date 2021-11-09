@@ -8,10 +8,12 @@ const App = () => {
   return (
     <div>
         < NavBar color='black' title="Giphy Search" />
+        < GifListContainter />
     </div>
   )
 }
 
 export default App
 
-xyz lmnop
+
+// https://api.giphy.com/v1/gifs/search?q=dolphin&api_key=gJLeROaUCbCwyYUF8jbudhx6NtJhmdBK&rating=g
